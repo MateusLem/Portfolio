@@ -9,11 +9,12 @@ Este é um site de portfólio pessoal desenvolvido em React com Vite e TailwindC
 - react-icons
 
 ## Como rodar o projeto
-1. Clone o repositório
-2. Execute os seguintes comandos:
+1. Clone o repositório pelo terminal
    ```
-   cd portfolio
+   git clone https://github.com/MateusLem/Portfolio
+   ```
+3. Ainda no terminal, execute os seguintes comandos
+   ```
    npm install
    npm run dev
    ```
-4. Faça o deploy no Vercel seguindo [este guia](https://vercel.com/guides/deploying-react-with-vercel)
