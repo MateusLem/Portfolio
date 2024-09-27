@@ -1,10 +1,10 @@
 export default function Contact() {
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (resp) => {
+    resp.preventDefault();
     console.log({
-      name: e.target.name.value,
-      email: e.target.email.value,
-      message: e.target.message.value,
+      name: resp.target.name.value,
+      email: resp.target.email.value,
+      message: resp.target.message.value,
     });
   };
 

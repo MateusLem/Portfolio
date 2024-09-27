@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Um projeto incrível",
+      "description": "Genius Arduino",
+      "url": "Genius-Arduino",
+      "bg": "bg-red-500"
+    },
+    {
+      "id": 2,
+      "name": "Outro projeto interessante",
+      "description": "Pizza Clicker",
+      "url": "Pizza-Clicker",
+      "bg": "bg-yellow-700"
+    },
+    {
+      "id": 3,
+      "name": "Uma análise diferenciada",
+      "description": "Prediction Model",
+      "url": "Data-Engeneering",
+      "bg": "bg-teal-700"
+    },
+    {
+      "id": 4,
+      "name": "Topa uma viagem?",
+      "description": "TourMate",
+      "url": "TourMate-Japetech",
+      "bg": "bg-green-800"
+    }
+  ]
