@@ -1,30 +1,26 @@
 [
     {
-      "id": 1,
       "name": "Um projeto incrível",
       "description": "Genius Arduino",
       "url": "Genius-Arduino",
-      "bg": "bg-red-500"
+      "bg": "rgb(239 68 68)"
     },
     {
-      "id": 2,
       "name": "Outro projeto interessante",
       "description": "Pizza Clicker",
       "url": "Pizza-Clicker",
-      "bg": "bg-yellow-700"
+      "bg": "rgb(234 179 8)"
     },
     {
-      "id": 3,
       "name": "Uma análise diferenciada",
       "description": "Prediction Model",
       "url": "Data-Engeneering",
-      "bg": "bg-teal-700"
+      "bg": "rgb(15 118 110)"
     },
     {
-      "id": 4,
       "name": "Topa uma viagem?",
       "description": "TourMate",
       "url": "TourMate-Japetech",
-      "bg": "bg-green-800"
+      "bg": "rgb(22 101 52)"
     }
   ]
