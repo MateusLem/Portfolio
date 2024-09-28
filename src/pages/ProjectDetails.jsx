@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import {FaGithub} from 'react-icons/fa';
 import data from "../data/projects.json";
 
 export default function ProjectDetails() {
@@ -24,14 +25,22 @@ export default function ProjectDetails() {
           </span>
         ))}
       </p>
-      <a
-        href={`https://github.com/MateusLem/${project.url}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 underline"
-      >
-        Ver no GitHub
-      </a>
+      <div className=" flex w-[10rem] py-2 px-3 text-lg leading-[1.5rem] m-4 rounded-3xl text-center justify-around items-center
+      bg-black text-white
+       hover:bg-white hover:text-black 
+        active:bg-black active:text-white
+        transition ease-in-out duration-300 hover:scale-110 active:scale-90" >
+        <a
+          href={`https://github.com/MateusLem/${project.url}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver no GitHub
+          
+        </a>
+        <FaGithub size={30}/>
+      </div>
+      
     </section>
   );
 }
