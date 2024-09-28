@@ -5,6 +5,13 @@ export default function Home() {
       <p className="text-lg">
         Este é o meu espaço para mostrar os projetos que desenvolvi e as minhas habilidades.
       </p>
+      ---
+      <div>
+          <h3>🚀 Apaixonado por tecnologia e como ela transforma a vida das pessoas</h3>
+          <p>✨ Quanto mais você aprende, melhor</p>
+          <p>🔧 Melhorando de bit a bit, de bit a Byte</p>
+      </div>
+      ---
     </section>
   );
 };

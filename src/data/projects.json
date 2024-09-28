@@ -1,26 +1,35 @@
 [
+  {
+    "id": 1,
+    "title": "Um projeto incrível",
+    "name": "Genius Arduino",
+    "url": "Genius-Arduino",
+    "bg": "rgb(199, 54, 54)",
+    "description": "Este projeto consiste na criação de um modelo do jogo Genius, tanto em modelo virtual, utilizando TinkerCad, quanto para funcionar em um modelo físico, utilizando Arduino.\n\nO jogo possui:\n\n- Seleção de dificuldade\n- Armazenamento de pontuação em memória EEPROM (cheque a documentação)\n- Sistema de cores de 4 LED's, branco, vermelho, amarelo e azul\n- Jogar pelo Monitor Serial ou pelos botões, permitindo uma leitura, inclusive alternada (cheque a explicação)\n- Níveis infinitos\n- Retorno sonoro para acertos, erros, cores e níveis\n- Nível bônus"
+  },
+  
     {
-      "name": "Um projeto incrível",
-      "description": "Genius Arduino",
-      "url": "Genius-Arduino",
-      "bg": "rgb(239 68 68)"
-    },
-    {
-      "name": "Outro projeto interessante",
-      "description": "Pizza Clicker",
+      "id":2,
+      "title": "Outro projeto interessante",
+      "name": "Pizza Clicker",
       "url": "Pizza-Clicker",
-      "bg": "rgb(234 179 8)"
+      "bg": "rgb(194, 149, 8)",
+      "description":"Este é um projeto de um jogo de clicker, onde o objetivo é clicar o máximo de vezes possível em um botão para ganhar pontos e comprar pizzas."
     },
     {
-      "name": "Uma análise diferenciada",
-      "description": "Prediction Model",
+      "id":3,
+      "title": "Uma análise diferenciada",
+      "name": "Prediction Model",
       "url": "Data-Engeneering",
-      "bg": "rgb(15 118 110)"
+      "bg": "rgb(15 118 110)",
+      "description":"Este projeto é uma avaliação para testar meus conhecimentos na análise e tratamento de dados, por meio de um DataFrame disponibilizado pelo professor.\n\nAlém disso, também devo desenvolver um modelo preditivo para estimar o valor de um imóvel imaginário com base em descrições dadas no material."
     },
     {
-      "name": "Topa uma viagem?",
-      "description": "TourMate",
+      "id": 4,
+      "title": "Topa uma viagem?",
+      "name": "TourMate",
       "url": "TourMate-Japetech",
-      "bg": "rgb(22 101 52)"
+      "bg": "rgb(22 101 52)",
+      "description":"O TourMate é um aplicativo para gerenciamento de viagens, que, utilizando o Chat GPT, auxilia o usuário na seleção da viagem ideal, por meio de sugestões de viagem personalizadas com base no seu perfil. Além disso, o aplicativo dará sugestões de caminhos para descobrir passeios turísticos, meios de transporte, restaurantes e tudo mais que a região tem a oferecer."
     }
   ]

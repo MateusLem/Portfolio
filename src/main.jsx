@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Projects from './pages/Projects.jsx';
+import ProjectDetails from './pages/ProjectDetails.jsx'; // Import ProjectDetails component
 import PageNotFound from './pages/PageNotFound.jsx';
 
 const router = createBrowserRouter([
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       { path: 'about', element: <About /> },
       { path: 'contact', element: <Contact /> },
       { path: 'projects', element: <Projects /> },
+      { path: 'projects/:id', element: <ProjectDetails /> }, // Add dynamic route for project details
       { path: '*', element: <PageNotFound /> }
     ]
   }

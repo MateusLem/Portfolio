@@ -35,6 +35,20 @@ export default function About() {
           {phrase}
         </p>
       ))}
+      ---
+      <div>
+          <h3>🏫Educação</h3>
+          <p>📚 FIAP - Engenharia de Software - Bacharelado</p>
+          <p>📚 FIAP - Análise e Desenvolvimento de Sistemas - Tecnólogo</p>
+          <p>📍 São Paulo/Brasil</p>
+      </div>
+      ---
+      <div>
+          <h3>🌐 Idiomas</h3>
+          <p>Português 🇧🇷 - Nativo</p>
+          <p>Inglês 🇺🇸 - B2</p>
+          <p>Espanhol 🇪🇸 - B1</p>
+      </div>
 
       <div className="flex flex-row justify-center items-center space-x-4 mt-10">
         {iconsData.map((data) => (
