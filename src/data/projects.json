@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Um projeto incrível",
+    "title": "Vamos testar sua memória",
     "name": "Genius Arduino",
     "url": "Genius-Arduino",
     "bg": "rgb(199, 54, 54)",
@@ -10,7 +10,7 @@
   
     {
       "id":2,
-      "title": "Outro projeto interessante",
+      "title": "Vai uma pizza?",
       "name": "Pizza Clicker",
       "url": "Pizza-Clicker",
       "bg": "rgb(194, 149, 8)",
